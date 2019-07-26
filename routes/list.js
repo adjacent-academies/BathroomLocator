@@ -36,14 +36,13 @@ router.get("/order/:key", (req, res) => {
     locations.sort((locA, locB) => locA[sortKey] - locB[sortKey]);
     console.log(locations);
   }
-
   //console.log(locations);
-
   res.render("list", {
     title: "List View for the Bathroom Mapper",
     locations
     //isActive: whichActive
   });
 });
+
 
 module.exports = router;
