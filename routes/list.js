@@ -9,7 +9,8 @@ const locations = [
     popularity: 9,
     comments: ["asd", "asd", "awdasd"]
   },
-  { name: "park", distance: 4, popularity: 1, comments: [] }
+  { name: "park", distance: 4, popularity: 1, comments: [] },
+  { name: "dummy", distance: 4, popularity: 1, comments: [] }
 ];
 //let whichActive = [true, false, false];
 
@@ -27,20 +28,20 @@ router.get("/order/:key", (req, res) => {
   if (sortKey === "comments") {
     locations.sort((locA, locB) => locA[sortKey].length - locB[sortKey].length);
     //whichActive = [false, true, false];
-  } else if(sortKey === "popularity"){
+  } else if (sortKey === "popularity") {
     locations.sort((locA, locB) => locA[sortKey] - locB[sortKey]);
-    console.log(locations)
+    console.log(locations);
     //whichActive = [false, false, true];
   } else {
     locations.sort((locA, locB) => locA[sortKey] - locB[sortKey]);
-    console.log(locations)
+    console.log(locations);
   }
 
   //console.log(locations);
 
   res.render("list", {
     title: "List View for the Bathroom Mapper",
-    locations,
+    locations
     //isActive: whichActive
   });
 });
