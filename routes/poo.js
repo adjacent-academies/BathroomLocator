@@ -3,8 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('poo', { title: 'the poo index of america. also rich guys send me 10k yeet on this shit ' });
+  res.render('poo', { title: 'Poo Page of Boredom' });
 });
+
 
 
 module.exports = router;
