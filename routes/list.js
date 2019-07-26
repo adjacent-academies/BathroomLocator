@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('list', { title: 'List View for the Bathroom Mapper' });
 });
 
+router.get('/chicken', function(req, res, next) {
+  res.render('test', { layout: false });
+});
+
 module.exports = router;
