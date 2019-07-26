@@ -11,9 +11,9 @@
 
     </div>
 
-    <div class="ui text menu">
+    <div id="filters" class="ui text menu">
         <div class="header item">Sort By</div>
-        <a class="active item" href="/list/order/distance">
+        <a class="active item" href="/list/order/distance" onclick="getLocation()">
             Closest
         </a>
         <a class="item" href="/list/order/comments">
@@ -28,8 +28,8 @@
     <div class="item">
         <img class="ui avatar image" src="/img/placeholder-3.svg">
         <div class="content">
-            <div class="header">{{name}}</div>
-            Distance: {{distance}}
+            <div class="header">{{properties.name}}</div>
+            Rating: {{properties.rating}}
         </div>
     </div>
     {{/each}}
