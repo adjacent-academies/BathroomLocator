@@ -6,6 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var listRouter = require('./routes/list');
+var mapRouter = require('./routes/map');
+var pooRouter = require('./routes/poo');
 
 var app = express();
 
@@ -21,11 +23,38 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/list', listRouter);
+app.use('/map', mapRouter);
+app.use('/poo', pooRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+//button functions
+
+function mapfunction(){ {
+    location.href('')
+  }
+
+
+}
+
+function listfunction(){
+  app.get('/', function (req, res) {
+    res.send('hello world')
+  })
+
+}
+
+function poofunction(){
+  app.get('/poopfun', function (req, res) {
+    res.send('hello world')
+  })
+}
+
+
+
 
 // error handler
 app.use(function(err, req, res, next) {

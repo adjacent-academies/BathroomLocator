@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET map page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Poopy Planner of San Francisco' });
-});
+    res.render('map', { title: 'The shit map' });
+  });
+
 module.exports = router;
