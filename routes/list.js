@@ -22,6 +22,12 @@ router.get("/", function(req, res, next) {
   });
 });
 
+
+//router.get('/chicken', function(req, res, next) {
+  //res.render('test', { layout: false });
+//});
+
+
 router.get("/order/:key", (req, res) => {
   let sortKey = req.params.key;
 
@@ -43,6 +49,5 @@ router.get("/order/:key", (req, res) => {
     //isActive: whichActive
   });
 });
-
 
 module.exports = router;

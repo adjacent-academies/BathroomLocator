@@ -31,31 +31,6 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-//button functions
-
-function mapfunction(){ {
-    location.href('')
-  }
-
-
-}
-
-function listfunction(){
-  app.get('/', function (req, res) {
-    res.send('hello world')
-  })
-
-}
-
-function poofunction(){
-  app.get('/poopfun', function (req, res) {
-    res.send('hello world')
-  })
-}
-
-
-
-
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
