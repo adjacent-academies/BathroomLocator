@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4181527, 37.7763035]
+      },
+      "properties": { "name": "Golden Gate Hall", "rating": 1.9 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4146574, 37.7746951]
+      },
+      "properties": {
+        "name": "Gelfand Partners Architects Inc",
+        "rating": 5.0 
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4162957, 37.7770082]
+      },
+      "properties": { "name": "Walgreens", "rating": 3.6 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4888173, 37.754172]
+      },
+      "properties": { "name": "Safeway", "rating": 3.8 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4038642, 37.784534]
+      },
+      "properties": { "name": "Target", "rating": 4.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4106957, 37.7871735]
+      },
+      "properties": { "name": "Starbucks", "rating": 4.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3990029, 37.7917911]
+      },
+      "properties": { "name": "Philz Coffee", "rating": 4.5 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4660947, 37.7698646]
+      },
+      "properties": {
+        "name": "California Academy of Sciences",
+        "rating": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4210477, 37.7740681]
+      },
+      "properties": { "name": "Golden Gate Urgent Care", "rating": 4.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.415038, 37.778262]
+      },
+      "properties": { "name": "Starbucks", "rating": 3.8 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4047863, 37.7845679]
+      },
+      "properties": {
+        "name": "City College of San Francisco Downtown Center Bookstore",
+        "rating": 4.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.405723, 37.786139]
+      },
+      "properties": { "name": "Starbucks", "rating": 3.8 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4170233, 37.7787697]
+      },
+      "properties": { "name": "Public Restroom", "rating": 4.8 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4170233, 37.7787697]
+      },
+      "properties": { "name": "Public Restroom", "rating": 4.8 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4060205, 37.7767539]
+      },
+      "properties": { "name": "Public Restroom", "rating": 4.2 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4342575, 37.7760382]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.427901, 37.768545]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.5 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4281239, 37.7917004]
+      },
+      "properties": { "name": "Public Restroom", "rating": 5.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4131894, 37.7805253]
+      },
+      "properties": { "name": "Public Restroom", "rating": 4.5 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3966908, 37.7957199]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.4 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4074808, 37.787639]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.3 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4077448, 37.7843994]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.0 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4123358, 37.7840721]
+      },
+      "properties": { "name": "Public Restroom", "rating": 3.0 }
+    }
+  ]
+}
