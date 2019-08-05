@@ -1,2 +1,2 @@
-# Poop App
-A basic express app for figuring out where to poop in San Francisco.
+# Bathroom Locator
+A basic express app for locating restrooms in the Tenderloin of SF.
